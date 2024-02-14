@@ -1,5 +1,6 @@
 import Vapor
 
+internal let subsystem: String = "PhotogrammetryServer"
 // configures your application
 public func configure(_ app: Application) async throws {
     // uncomment to serve files from /Public folder
